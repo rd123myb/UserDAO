@@ -12,4 +12,4 @@ A DAOstack DAO with custom user testing feedback module. UserDAO rewards members
 3) securing direct dataset elicitation (clients) to the DAO. 
 
 ## Modifications:
-to the DAO conduct and functionality can also be adjusted though voting. if passed, bounties are put up to to incentivise implementation of features to acceptable standard (as voted on by DAO members).
+to the DAO conduct and functionality can also be adjusted though voting. if passed, bounties are put up to incentivise implementation of features to acceptable standard (as voted on by DAO members or approved by appointed DAO techlead).
