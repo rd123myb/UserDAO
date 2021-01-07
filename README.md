@@ -1,5 +1,5 @@
 # UserDAO
-A DAOstack DAO with a purpose built user testing feedback module and sentiment analysis engine, UserDAO rewards members for providing feedback on products and services. It does this by creating a platform for recording, aggregating, and selling access to demo-specific qualitative datasets + compute-to-data services, and sentiment analysis algorithms with auto-generated product reports. The data is generated and/or curated by UserDAO members, and sold on Ocean Market while maintaining user privacy and anonymity and revenue is distributed to member accounts in OCEAN.
+A DAOstack DAO with a purpose built user testing feedback module and sentiment analysis engine, UserDAO rewards members for providing feedback on products and services. It does this by creating a platform for recording, aggregating, and selling access to demo-specific qualitative datasets + compute-to-data services, and sentiment analysis algorithms with auto-generated product reports. The data is generated and/or curated by UserDAO members. UserDAO mints datatokens for its services and sells them on Ocean Market; while maintaining user privacy and anonymity. Revenue is distributed to member accounts in OCEAN tokens based on reputation dervice from contributions to the datasets and the UserDAO.
 
 ## Members can vote to:
 1) Assign roles within the DAO 
