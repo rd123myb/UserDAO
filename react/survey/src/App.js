@@ -20,14 +20,14 @@ onCompleteComponent = () => {
 render(){
 
   var json = {
-    "completedHtml": "<h3>Thank you for your feedback.</h3> <h5>Your thoughts and ideas will help us to create a great product!</h5>",
+    "completedHtml": "<h3>Thank you for your feedback.</h3> <h5>Your analysis will be added checked and added to the UserDAO dataset! This will contribute you your reputation within UserDAO.</h5>",
     "completedHtmlOnCondition": [
         {
             "expression": "{nps_score} > 8",
-            "html": "<h3>Thank you for your feedback.</h3> <h5>We glad that you love our product. Your ideas and suggestions will help us to make our product even better!</h5>"
+            "html": "<h3>Thank you for your feedback.</h3> <h5>Your analysis will be added checked and added to the UserDAO dataset! This will contribute you your reputation within UserDAO.</h5>"
         }, {
             "expression": "{nps_score} < 7",
-            "html": "<h3>Thank you for your feedback.</h3> <h5> We are glad that you share with us your ideas.We highly value all suggestions from our customers. We do our best to improve the product and reach your expectation.</h5><br/>"
+            "html": "<h3>Thank you for your feedback.</h3> <h5>Your analysis will be added checked and added to the UserDAO dataset! This will contribute you your reputation within UserDAO.</h5><br/>"
         }
     ],
     "pages": [
@@ -41,7 +41,7 @@ render(){
                     "isRequired": true,
                     "rateMin": 0,
                     "rateMax": 10,
-                    "minRateDescription": "(If anything, I would say dont buy it)",
+                    "minRateDescription": "(If anything, I would say dont bother with it)",
                     "maxRateDescription": "(I definatley would)"
                 }, {
                     "type": "checkbox",
