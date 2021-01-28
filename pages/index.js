@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
           </a>
 
           <a
-            href=""
+            href="/posts/members"
             className={styles.card}
           >
             <h3>Join &rarr;</h3>
