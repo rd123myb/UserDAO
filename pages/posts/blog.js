@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 export default function FirstPost() {
   return (
     <Layout>
-      <h1>So why is it priced at zero?</h1>
+      <h1>So why let it be priced at zero?</h1>
       
         
           <p> UserDAO is a DataDao usecase that gives users the tools they need to generate structured data from the opinions they have about products.
