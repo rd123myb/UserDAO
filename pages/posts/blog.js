@@ -19,7 +19,7 @@ export default function FirstPost({ allPostsData }) {
                a given product into valuable data that companies can use to improve thier quality and serve the market demand more optimally.
                This is the goal of almost every business, and because this data is able to help them do this, your opinion is worth something.
            </p>
-           <p>Now with the power of Blockchain, DAO's and Decentralized finance, qualitative data engines like UserDAO give
+           <p>Now with the power of Blockchain, DAO's and Decentralized finance, qualitative data daos like UserDAO give
                everyday consumers a market for thier opinions on the products they enjoy, all while helping smaller companies, that otherwise
                wouldn't have the resources to gather thier own data, the ability to compete with larger companies in the data driven economy.
            </p>
