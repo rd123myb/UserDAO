@@ -7,16 +7,16 @@ export default function FirstPost({ allPostsData }) {
       <h1>So why is it priced at zero?</h1>
       
         
-          <p> UserDAO is a DataDao usecase that gives users the tools they need to generate structured data from the opinions on products.
-              This data is valuable to companies who use it to develop products with better market fit. This can result in increased revenue and a durable competitive advantages.
+          <p> UserDAO is a DataDao usecase that gives users the tools they need to generate structured data from the opinions have have  on products.
+              This data is valuable to companies who use it in thier product development process to achieve market fit. This is a common practice that can result in increased revenue and a durable competitive advantages.
               Currently, this type of high quality data is mostly gathered by either user testing, focus groups or surveys that don't incentivise consumers adequatly. Furthermore, most of this data is siloed within 
-              the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of companies and
+              the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of 
                consumers around the world.
           </p>
 
-          <p> UserDAO is a decentralized and open-source platform for meeting the data demand in an open marketplace.
-               The specialised surveys and analysis tools are desinged to turn your thoughts and preferences about every aspect of
-               a given product into the type of valuable data that companies need to compete in a competitive consumer market.
+          <p> UserDAO is a decentralized and open-source system for meeting this demand in an open marketplace.
+              The utilizes specialised surveys and analysis tools are desinged to turn your thoughts and preferences about every aspect of
+               a given product into the type of valuable data that companies need in a competitive consumer market.
                
                
                
