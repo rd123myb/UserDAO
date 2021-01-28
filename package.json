@@ -1,17 +1,19 @@
 {
-  "name": "with-mongodb",
+  "name": "my-app",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
-    "mongodb": "^3.5.9",
-    "next": "latest",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "license": "MIT"
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "remark": "^12.0.0",
+    "remark-html": "^12.0.0"
+  }
 }
