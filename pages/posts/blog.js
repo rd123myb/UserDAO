@@ -7,8 +7,8 @@ export default function FirstPost() {
      <h4>Some products are better than others, the question is why?</h4>
     
       
-    <p> UserDAO is a decentralized and open-source system that gives users the tools to structure and pool their opinions into a dataset.
-        This data is highly valuable to companies who use it to achieve good product market fit, yet is currently gathered by centralized user testing, focus groups and surveys that don't incentivise consumers adequately.
+    <p> UserDAO is a decentralised and open-source system that gives users the tools to structure their opinions into a dataset.
+        This data is valuable to companies who use it to achieve good product market fit and identify emerging trends, yet is currently gathered by centralized user testing, focus groups and surveys that don't incentivise consumers adequately.
        
         </p>
        
@@ -17,9 +17,9 @@ export default function FirstPost() {
          consumers.
     </p>
 
-    <p> UserDAO members meet the demand for this data in an open marketplace.
-        Specialized analysis tools can turn opinions into data, which has immense value when captured and structured at scale. UserDAO creates this effect and redistributes revenue back to
-         contributions via smart contracts.
+    <p> The demand for this data can now be met in an open marketplace.
+        Specialised analysis tools capture and structure at members opinions at scale, and monitise data, and redistribute revenue back to
+         contributors via smart contracts.
 
             </p>
                

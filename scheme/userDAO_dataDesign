@@ -1,0 +1,56 @@
+@startuml
+
+
+class UserDAO_DataSet_MyersBriggs{
+    online myers-briggs dataset available
+
+}
+
+class UserDAO_DataSet_UI/UX{
+
+}
+
+class UserDAO_DataSet_UI_Hueristics{
+    neilson hueristics
+    
+
+}
+
+class UserDAO_DAO_voting{
+    study design
+    survey design
+    survey questions
+    data structure
+    manager
+    advertiser / awareness funds
+    compensation = rep
+    letting people in
+    combine with other data
+    reward for finding aggregatable data
+}
+
+class Personal_dataset_for_Ocean_PRIVATE{
+    userID: string (pk)
+    Firstname: string
+    Middlename: string
+    Lastname: string
+    gender: char
+    ethnicity: string
+    country of birth: string
+    preschool: string
+    citys/towns pre-school: select/string
+    elementryschool: string
+    citys/towns of elementary: select/string
+    highschool: string
+    citys/towns of highschool: select/string
+    collage: string
+    citys/towns of collage: select/string
+    ethnicity?: string
+    age: int
+    education: string
+    occupation: string
+    location: string
+    annualIncome: int
+}
+
+@enduml

@@ -1,0 +1,88 @@
+@startuml
+left to right direction
+skinparam actorStyle Hollow 
+
+actor "Collective + Fund" as admin
+actor "DAO member" as member
+actor "Client" as client
+actor "Dataset purchaser" as purchaser
+actor "Outside Expert" as expert
+actor "DaoBot" as bot
+actor "Liquidity Provider" as lp
+
+
+
+
+usecase "Demographic Survey" as demserv
+usecase "Myers-Briggs-PI" as myers
+usecase "General User Testing Pool" as testpool
+usecase "Voting" as voting
+usecase "Submit Product to Queue" as queue
+usecase "Submit Private Application" as private
+usecase "Product Selection" as prodSelect
+usecase "Get Expert Input" as expertInput
+usecase "Scrape Product Spec" as scrape
+usecase "Catagorize product" as catag
+usecase "Take Survey" as takeSurv
+usecase "Submit Data" as submit
+usecase "Suspend Member" as suspend
+usecase "Check/Clean Data" as check
+usecase "Sentiment Analysis" as sent
+usecase "Merge Data" as merge
+
+
+
+
+member --> demserv
+demserv -> myers : <includes>
+member --> testpool
+admin -> prodSelect
+bot -> scrape
+prodSelect .> scrape : <includes>
+prodSelect ..> testpool : <includes>
+scrape .> catag : <includes>
+testpool --> takeSurv
+takeSurv -> merge
+submit <.. sent : <extends>
+bot -> sent
+sent .> check : <includes>
+client --> private
+bot --> merge
+merge -> submit
+admin --> expertInput
+expert --> expertInput
+member -> voting
+client -> queue
+suspend ..> voting :<extends>
+purchaser --> submit
+lp --> submit
+queue .> voting : <extends>
+
+
+rectangle "notes" {
+    usecase "gamification of surveys" as 1
+    usecase "games have threshhold 'levels'" as 2
+    usecase "levels release rep in blocks" as 3
+    usecase "rep dictates rewards from dao" as 4
+    
+    1 -> 2
+    2 -> 3
+    3 -> 4
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
