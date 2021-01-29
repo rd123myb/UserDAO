@@ -4,22 +4,22 @@ import Layout from '../../components/layout'
 export default function FirstPost() {
   return (
     <Layout>
-      <h4>Some products are better than others, the question is WHY.</h4>
+     <h4>Some products are better than others, the question is WHY.</h4>
+    
       
-        
-          <p> UserDAO is a decentralized and open-source system that gives users the tools to structure and pool thier opinions into a dataset.
-              This data is highly valuable to companies who use it to achieve good product market fit, yet is currenty gathered by centralized user testing, focus groups or surveys that don't incentivise consumers adequatly. 
-              
-              </p> 
-              
-              <p>Furthermore, most of this data is siloed within 
-              the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of 
-               consumers around the world.
-          </p>
+    <p> UserDAO is a decentralized and open-source system that gives users the tools to structure and pool their opinions into a dataset.
+        This data is highly valuable to companies who use it to achieve good product market fit, yet is currently gathered by centralized user testing, focus groups or surveys that don't incentivise consumers adequately.
+       
+        </p>
+       
+        <p>Furthermore, most of this data is siloed within
+        the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of
+         consumers around the world.
+    </p>
 
-          <p> UserDAO members meet the demand for this data in an open marketplace.
-              Specialised analysis tools can turn opinions into data, which has immense value when captured and structured at scale. UserDAO creates this effect and redistrubtes revenue back to 
-               contributiors via smart contracts.
+    <p> UserDAO members meet the demand for this data in an open marketplace.
+        Specialized analysis tools can turn opinions into data, which has immense value when captured and structured at scale. UserDAO creates this effect and redistributes revenue back to
+         contributions via smart contracts.
 
             </p>
                
