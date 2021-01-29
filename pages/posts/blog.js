@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 export default function FirstPost() {
   return (
     <Layout>
-      <h1>So why price at zero?</h1>
+      <h1>So why not get paid for sharing them?</h1>
       
         
           <p> UserDAO is a decentralized and open-source system that gives users the tools structure thier opinions on products into a dataset.
