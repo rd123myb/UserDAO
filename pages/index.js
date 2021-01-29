@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
             className={styles.card}
           >
             <h3>Get Data &rarr;</h3>
-            <p>Purchuse access to UserDAO generated datasets</p>
+            <p>Purchase access to UserDAO generated datasets</p>
           </a>
 
           <a
