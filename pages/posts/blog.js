@@ -17,7 +17,7 @@ export default function FirstPost() {
                consumers around the world.
           </p>
 
-          <p> UserDAO members can meet the demand for this data in an open marketplace.
+          <p> UserDAO members meet the demand for this data in an open marketplace.
               Specialised analysis tools can turn opinions into data, which has immense value when captured and structured at scale. UserDAO creates this effect and redistrubtes revenue back to 
                contributiors via smart contracts.
 
