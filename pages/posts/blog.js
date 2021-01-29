@@ -7,8 +7,8 @@ export default function FirstPost() {
       <h1>So why price at zero?</h1>
       
         
-          <p> UserDAO gives users the tools they need to generate structured data from the opinions they have about products.
-              This data is highly valuable by companies who use it to achieve good product market fit.
+          <p> UserDAO gives users the tools they need to generate structured data from thier opinions on products.
+              This data is highly valuable to companies who use it to achieve good product market fit.
               Currently, this type of high quality data is gathered mostly by either user testing, focus groups or surveys that don't incentivise consumers adequatly. 
               Furthermore, most of this data is siloed within 
               the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of 
