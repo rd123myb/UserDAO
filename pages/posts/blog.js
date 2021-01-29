@@ -7,7 +7,7 @@ export default function FirstPost() {
       <h1>So why not get paid for sharing them?</h1>
       
         
-          <p> UserDAO is a decentralized and open-source system that gives users the tools structure thier opinions on products into a dataset.
+          <p> UserDAO is a decentralized and open-source system that gives users the tools to structure and pool thier opinions on products into a dataset.
               This data is highly valuable to companies who use it to achieve good product market fit, yet is currenty gathered by user testing, focus groups or surveys that don't incentivise consumers adequatly. 
               
               </p> 
