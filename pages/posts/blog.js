@@ -22,7 +22,7 @@ export default function FirstPost() {
     <p>
         1) Specialised testing methods and analysis tools capture members opinions for specific products.
         </p><p>
-        2) Opinions are transformed, structured and merged into a dataset that includes objective datapoints relating to the product.
+        2) Opinions are transformed, structured and merged into a dataset with objective datapoints relating to the product.
         </p><p>
         3) Dataset is published on Ocean market to and sold for OCEAN.
         </p><p>
