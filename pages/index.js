@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
           >
             <h3>Join &rarr;</h3>
             <p>
-              Recieve a share of UserDAO generated revenue
+              Receive a share of UserDAO generated revenue
             </p>
           </a>
         </div>

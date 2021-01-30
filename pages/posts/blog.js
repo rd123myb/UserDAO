@@ -8,13 +8,13 @@ export default function FirstPost() {
     
       
     <p> UserDAO is a decentralised and open-source system that gives users the tools to structure their opinions into a dataset.
-        This data is valuable to companies who use it to achieve good product market fit and identify emerging trends, yet is currently gathered by centralized user testing, focus groups and surveys that don't incentivise consumers adequately.
+        This companies use this type of data to predict product market fit and identify emerging trends. Currently it is gathered by expensive user testing methods that don't reward consumers as they should.
        
         </p>
        
-        <p>Furthermore, most of this data is siloed within
-        the companies that pay to generate it, leaving countless potential for innovation unrealised at the expense of
-         consumers.
+        <p>This data is valuable to both large companies and agile operations. Yet it is often generated and siloed within large companies due to inital cost. This centralises knowledge of how to meet consumer preferences, 
+          resulting in lesser quality products for consumers, and less opportunity for innovation and competion in the consumer market.
+
     </p>
 
     <h3> The demand for this data can now be met in an open marketplace.</h3>
