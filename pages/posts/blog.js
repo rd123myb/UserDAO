@@ -13,7 +13,7 @@ export default function FirstPost() {
         </p>
        
         <p>This data is valuable to both large companies and agile operations. Yet it is often generated and siloed within large companies due to the cost of generating it. This centralises knowledge of how to meet consumer preferences, 
-          resulting in lesser quality products for consumers, and less opportunity for innovation and competion by smaller operations in the consumer market.
+          resulting in lesser quality products for consumers. It also limits opportunity for smaller operations to compete successfully.
 
     </p>
 
