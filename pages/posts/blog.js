@@ -24,9 +24,9 @@ export default function FirstPost() {
         </p><p>
         2) Opinions are transformed, structured and merged into a dataset that includes objective datapoints relating to the product.
         </p><p>
-        3) Dataset is published on Ocean market to and sold for Ocean Tokens.
+        3) Dataset is published on Ocean market to and sold for OCEAN.
         </p><p>
-        4) Revenue gained from sales is removed and distributed to DAO members via smart contracts.
+        4) OCEAN gained from sales is removed from the pool and distributed to DAO members via smart contracts.
         </p><p>
         5) Elected members fill in gaps where needed.
 
