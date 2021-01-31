@@ -2,6 +2,7 @@
 token.sol
 config.ini
 .next
+.env.local
 // .gitnignore
 
 build/
