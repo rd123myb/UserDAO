@@ -22,11 +22,7 @@ export default function FirstSurvey() {
       <Survey.Survey
         json={json}/>
       </body>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
+     
     </Layout>
   );
 }

@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/general-surveys/first-survey": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/general-surveys/first-survey.js"
-    ],
     "/signup": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
