@@ -1,11 +1,6 @@
 @startuml
 
 
-class UserDAO_DataSet_MyersBriggs{
-    online myers-briggs dataset available
-
-}
-
 class UserDAO_DataSet_UI/UX{
 
 }
@@ -14,6 +9,22 @@ class UserDAO_DataSet_UI_Hueristics{
     neilson hueristics
     
 
+}
+
+class TableOutput{
+    JOIN _PRIVATE (MINUS PID)
+    survey_entry : dateTime
+    inception date: date
+    dailyAverageBusinessData: [object]
+    timeSeries: nestedDoc - growth aggregate
+    socialMedia: [object / nested]
+    githubActivity: [object] / rating / commits
+    webTraffic: nested
+    surveys: [nested object] deliniated
+    hueristic: [object]
+    tools: [array] (github)
+    SEO : int (rating)
+    sentimentOutput: int (rating)
 }
 
 class UserDAO_DAO_voting{
@@ -29,7 +40,7 @@ class UserDAO_DAO_voting{
     reward for finding aggregatable data
 }
 
-class Personal_dataset_for_Ocean_PRIVATE{
+class _PRIVATE{
     userID: string (pk)
     Firstname: string
     Middlename: string
