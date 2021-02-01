@@ -1,9 +1,8 @@
 
-import * as Survey from 'survey-react';
 import 'survey-react/survey.css'
 
 
-var json = {
+export const json = {
     questions: [
         {
             name: "name",
@@ -40,17 +39,3 @@ var json = {
         }
     ]
 };
-
-window.survey = new Survey.Model(json);
-
-survey
-    .onComplete
-    .add(function (result) {
-        document
-            .querySelector('#surveyResult')
-            .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
-    });
-
-ReactDOM.render(<Survey.Survey model={survey}/>, document.getElementById("surveyElement"));
-
-export default SignupForm;

@@ -1,10 +1,9 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home({ allPostsData }) {
   return (
@@ -19,47 +18,40 @@ export default function Home({ allPostsData }) {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section> */}
-            
+
       <main className={styles.main}>
-       
-
         <div className={styles.grid}>
-  
+          <Link href="/posts/blog">
+            <a className={styles.card}>
+              <h3>Learn &rarr;</h3>
+              <p>Find out what UserDAO is and how it works</p>
+            </a>
+          </Link>
 
-          <a href="/posts/blog" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Find out what UserDAO is and how it works</p>
-          </a>
+          <Link href="https://market.oceanprotocol.com/">
+            <a className={styles.card}>
+              <h3>Get Data &rarr;</h3>
+              <p>Purchase access to UserDAO generated datasets</p>
+            </a>
+          </Link>
 
-          <a
-            href="https://market.oceanprotocol.com/"
-            className={styles.card}
-          >
-            <h3>Get Data &rarr;</h3>
-            <p>Purchase access to UserDAO generated datasets</p>
-          </a>
-
-          <a
-            href="/signup"
-            className={styles.card}
-          >
-            <h3>Join &rarr;</h3>
-            <p>
-              Receive a share of UserDAO generated revenue
-            </p>
-          </a>
+          <Link href="/signup">
+            <a className={styles.card}>
+              <h3>Join &rarr;</h3>
+              <p>Receive a share of UserDAO generated revenue</p>
+            </a>
+          </Link>
         </div>
       </main>
-     
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "../../components/layout";
-import React, {Component} from 'react';
+import React from 'react';
 import * as Survey from 'survey-react';
 import 'survey-react/survey.css'
-import SignupForm from "../../components/surveys/signupForm"
+import {json} from "../../components/surveys/signupForm"
 
 
 export default function FirstSurvey() {
@@ -17,9 +17,10 @@ export default function FirstSurvey() {
       <Head>
         <title>First Survey</title>
       </Head>
-      <h1>First Survey</h1>
+      <h1>Hi there, please introduce yourself!</h1>
       <body>
-      
+      <Survey.Survey
+        json={json}/>
       </body>
       <h2>
         <Link href="/">
