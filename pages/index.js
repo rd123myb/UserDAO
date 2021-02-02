@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
             </a>
           </Link>
 
-          <Link href="/signup">
+          <Link href="/create-profile">
             <a className={styles.card}>
               <h3>Join &rarr;</h3>
               <p>Receive a share of UserDAO generated revenue</p>

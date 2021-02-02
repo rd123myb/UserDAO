@@ -53,6 +53,15 @@ export const json = {
             isRequired: true,
             placeHolder: "@Satoshi_2008",
             autoComplete: "eth"
+        }, {
+            type: "dropdown",
+            name: "country",
+            title: "Select the country...",
+            isRequired: true,
+            choicesByUrl: {
+                url: "https://restcountries.eu/rest/v2/all",
+                valueName: "name"
+            }
         }
     ]
 };
