@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import React from 'react';
 import * as Survey from 'survey-react';
 import 'survey-react/survey.css'
-import {json} from "../../components/surveys/profile"
+import {json} from "../../components/surveys/signupForm"
 
 
 export default function FirstSurvey() {
