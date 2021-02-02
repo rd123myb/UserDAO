@@ -1,6 +1,8 @@
 
 import Layout from '../../components/layout'
 
+//placeholder for home dashboard post authentication
+
 export default function FirstPost() {
   return (
     <Layout>

@@ -3,6 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
+//global layout theme component
+
 const name = 'Your Opinion, Your Data.'
 export const siteTitle = 'UserDAO'
 

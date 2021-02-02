@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
+// dynamic routing page from the next tutorial, incorperate eventually
 export default function Post({ postData }) {
   return (
     <Layout>

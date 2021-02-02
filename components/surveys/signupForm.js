@@ -1,6 +1,7 @@
 
 import 'survey-react/survey.css'
 
+// Json that is mapped into suvery on pages/signup.js
 
 export const json = {
     questions: [

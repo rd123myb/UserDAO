@@ -1,5 +1,6 @@
 import Layout from "../../components/layout.js"
 
+//basic login wireframe
 export default function CreateAccount () {
 
     return(
