@@ -42,16 +42,16 @@ export const json = {
                 }
             ]
         },
-        {
-            type: "dropdown",
-            name: "country",
-            title: "Select the country...",
-            isRequired: true,
-            choicesByUrl: {
-                url: "https://restcountries.eu/rest/v2/all",
-                valueName: "name"
-            }
-        },
+        // {
+        //     type: "dropdown",
+        //     name: "country",
+        //     title: "Select the country...",
+        //     isRequired: true,
+        //     choicesByUrl: {
+        //         url: "https://restcountries.eu/rest/v2/all",
+        //         valueName: "name"
+        //     }
+        // },
         {
             name: "eth address",
             type: "text",
