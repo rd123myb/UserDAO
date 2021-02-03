@@ -55,7 +55,7 @@ export const json = {
     {
         type: "panel",
         name: "panel_countriesByRegion",
-        title: "Show countries by region",
+        title: "Select your location",
         elements: [
             {
                 type: "dropdown",
