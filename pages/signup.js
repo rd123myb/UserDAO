@@ -17,7 +17,7 @@ export default function FirstSurvey() {
       <Head>
         <title>Sign up to UserDAO</title>
       </Head>
-      <h1>Hi there, create a private profile</h1>
+      <h1>Create a private profile</h1>
       <body>
       <Survey.Survey
         json={json}/>
