@@ -1,7 +1,15 @@
 {
   "/_app": "pages/_app.js",
+  "/account/create-account": "pages/account/create-account.html",
+  "/account/login": "pages/account/login.html",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/hello": "pages/api/hello.js",
+  "/general-surveys/first-survey": "pages/general-surveys/first-survey.html",
+  "/": "pages/index.js",
+  "/posts/[id]": "pages/posts/[id].js",
+  "/posts/blog": "pages/posts/blog.html",
+  "/signup": "pages/signup.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/signup": "pages/signup.js",
-  "/posts/blog": "pages/posts/blog.js"
+  "/404": "pages/404.html"
 }
