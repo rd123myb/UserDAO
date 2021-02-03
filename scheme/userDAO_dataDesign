@@ -48,14 +48,8 @@ class _PRIVATE{
     gender: char
     ethnicity: string
     country of birth: string
-    preschool: string
-    citys/towns pre-school: select/string
-    elementryschool: string
-    citys/towns of elementary: select/string
-    highschool: string
-    citys/towns of highschool: select/string
+    city: string
     collage: string
-    citys/towns of collage: select/string
     ethnicity?: string
     age: int
     education: string
